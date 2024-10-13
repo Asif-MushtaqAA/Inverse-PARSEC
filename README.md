@@ -12,7 +12,8 @@ Methodology of Inverse PARSEC:
 Limitations:
 The Inverse PARSEC approach is good at reconstructing aerofoil shapes from coordinate data. However, it struggles to accurately reconstruct aerofoils with camber exceeding 4% of the chord length, such as the NACA 6412.
 
-Example implementation in console
-Place the aerofoil coordinate file in the coord folder, then run the script
-from inverse_parsec import main
+#Example implementation in console  
+Place the aerofoil coordinate file in the coord folder, then run the script.
+
+from inverse_parsec import main  
 main()
